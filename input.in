@@ -1,0 +1,38 @@
+Inputfile for "metapop_dispPoly"
+
+Start parameters:
+Occupancy at simulation start:
+1
+Local population size at simulation start
+100
+habitat capacity
+100
+beta (type of competition: 0 no density regulation, 1 contest competition, >1 scaramble conpetition)
+1.0
+lambda 0 (fertility)
+3
+sigma (environmental variability)
+1.0
+my 0 (dispersal mortality)
+0.5
+gamma ("slope" of trade-off function; only integer!)
+12
+mutation rate (for both loci)
+0.001
+random patch extinctions (probability)
+0.05
+no. of simulated generations
+10000
+allee effect (alpha)
+0
+
+trade-off (no/yes)
+yes
+linkage (no/yes)
+yes
+NND (no/yes)
+no
+linear trade-off function (linear) or neg-exp. trade-off function (negexp)
+negexp
+"random" or "assortative" mating
+random
